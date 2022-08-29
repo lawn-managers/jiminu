@@ -38,4 +38,4 @@ multiple
 neither
 ```
 
-- [문제](https://www.acmicpc.net/problem/5086 "문제")
+- <a href="https://www.acmicpc.net/problem/5086" title="문제" target="_blank">문제</a>

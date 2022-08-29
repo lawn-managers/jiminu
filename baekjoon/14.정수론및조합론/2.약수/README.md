@@ -22,4 +22,4 @@
 8
 ```
 
-- [문제](https://www.acmicpc.net/problem/1037 "문제")
+- <a href="https://www.acmicpc.net/problem/1037" title="문제" target="_blank">문제</a>
