@@ -1,4 +1,4 @@
-# 문제
+# <a href="https://www.acmicpc.net/problem/3036" title="문제" target="_blank">문제</a>
 
 상근이는 창고에서 링 N개를 발견했다. 상근이는 각각의 링이 앞에 있는 링과 뒤에 있는 링과 접하도록 바닥에 내려놓았다. 
 
@@ -29,5 +29,3 @@
 2/1
 4/1
 ```
-
-- <a href="https://www.acmicpc.net/problem/3036" title="문제" target="_blank">문제</a>

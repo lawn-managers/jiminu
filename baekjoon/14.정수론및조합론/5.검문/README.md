@@ -1,4 +1,4 @@
-# 문제
+# <a href="https://www.acmicpc.net/problem/2981" title="문제" target="_blank">문제</a>
 
 트럭을 타고 이동하던 상근이는 경찰의 검문을 받게 되었다. 경찰은 상근이가 운반하던 화물을 하나하나 모두 확인할 것이기 때문에, 검문하는데 엄청나게 오랜 시간이 걸린다.
 
@@ -32,5 +32,3 @@ N개의 수가 주어졌을 때, 가능한 M을 모두 찾는 프로그램을 �
 ```
 2 4
 ```
-
-- <a href="https://www.acmicpc.net/problem/2981" title="문제" target="_blank">문제</a>

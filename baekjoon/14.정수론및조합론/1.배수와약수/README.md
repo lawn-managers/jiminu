@@ -1,4 +1,4 @@
-# 문제
+# <a href="https://www.acmicpc.net/problem/5086" title="문제" target="_blank">문제</a>
 
 4 × 3 = 12이다.
 
@@ -37,5 +37,3 @@ factor
 multiple
 neither
 ```
-
-- <a href="https://www.acmicpc.net/problem/5086" title="문제" target="_blank">문제</a>

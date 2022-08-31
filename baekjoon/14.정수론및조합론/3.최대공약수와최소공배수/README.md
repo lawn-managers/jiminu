@@ -1,4 +1,4 @@
-# 문제
+# <a href="https://www.acmicpc.net/problem/2609" title="문제" target="_blank">문제</a>
 
 두 개의 자연수를 입력받아 최대 공약수와 최소 공배수를 출력하는 프로그램을 작성하시오.
 
@@ -20,5 +20,3 @@
 6
 72
 ```
-
-- <a href="https://www.acmicpc.net/problem/2609" title="문제" target="_blank">문제</a>

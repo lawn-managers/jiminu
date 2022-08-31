@@ -1,4 +1,4 @@
-# 문제
+# <a href="https://www.acmicpc.net/problem/1934" title="문제" target="_blank">문제</a>
 
 두 자연수 A와 B에 대해서, A의 배수이면서 B의 배수인 자연수를 A와 B의 공배수라고 한다. 이런 공배수 중에서 가장 작은 수를 최소공배수라고 한다. 예를 들어, 6과 15의 공배수는 30, 60, 90등이 있으며, 최소 공배수는 30이다.
 
@@ -26,5 +26,3 @@
 30
 221
 ```
-
-- <a href="https://www.acmicpc.net/problem/1934" title="문제" target="_blank">문제</a>
