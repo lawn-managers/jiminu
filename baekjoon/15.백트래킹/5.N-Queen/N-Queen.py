@@ -1,30 +1,28 @@
 N = int(input())
-board = [[0 for _ in range(0, N)] for _ in range(N)]
+pos = [-1 for _ in range(N)]
+prev_x = [-1 for _ in range(N)]
 
-queens = []
-result = 0
-
-for i in range(N) :
-    queens.append([i, 0])
-
-    for y in range(1, N) :
+def check_queen_position(x, y) :
+    for pos_y, pos_x in enumerate(pos) :
+        sub_y = y - pos_y
+        if pos_y == -1 :
+            return True
         
-        pre_queens_num = len(queens)
-        for x in range(N) :
+        if (pos_x == x or 
+            (abs(y - sub_y) == pos_y and abs(x - sub_y) == pos_x) or
+            (abs(y - sub_y) == pos_y and abs(x + sub_y) == pos_x)) :
+            return False
+    return True
 
-            state = False
-            for q in queens :
-                
-                if (abs(q[0]+x) == abs(q[1]+y) or abs(q[0]-x) == abs(q[1]-y) or q[0] == x) :
-                    state = True
-                    break
-            
-            if state :
-                continue
-            
-            queens.append([x,y])
+for y in range(N) :
+    for x in range(N) :
+        
+        if check_queen_position(x, y) :
+            pos[y] = x
+            prev_x[y] = x
             break
         
-        if pre_queens_num == len(queens) :
-            queens.pop()
-            y -= 1
+    if pos[y] == -1 :    
+        pos[y-1] = -1
+        y -= 1
+    
